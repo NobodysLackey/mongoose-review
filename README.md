@@ -328,7 +328,7 @@ One of the things that Mongoose allows us to do is to set up templates or *schem
 Let's start off by making a `models` directory.
 
 ```sh
-touch models
+mkdir models
 ```
 
 In this folder, we'll create a file for the particular resource we want a schema for. For this app, we'll call it `task.js`. By convention, when we name this file, the resource is **singular** since it represents the template we will follow for a *single* document.
